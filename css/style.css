@@ -6,17 +6,10 @@ border-radius: 5px;
  }
 
 
- 
-
-/* Ready to join section */
-
-
-
-
-/******************for mobile device ******************/
+/******************for extra small device ******************/
 
 @media screen and (max-width:576px) {
-    .carousel-item img{
+    .carousel-item .carousel-img{
         height:400px;
         
          }
@@ -24,13 +17,25 @@ border-radius: 5px;
 
     .hidden{
         display: none;
-    }     
+    } 
+    
+     
+}
+
+/******************for small device ******************/
+
+@media screen and (min-width:577x) and (max-width:767px){
+
+    .hidden{
+        display: none;
+    }  
+
 
 }
 
-/******************for tablet device ******************/
+/* for medium device */
 
-@media screen and (min-width:577x) and (max-width:767px){
+@media screen and (max-width:991px){
 
     .hidden{
         display: none;
